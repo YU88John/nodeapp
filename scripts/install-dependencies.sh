@@ -10,6 +10,7 @@ sleep 10
 
 echo "Installing global dependencies..."
 npm install -g pm2
+npm install
 pm2 update
 
 # delete existing bundle

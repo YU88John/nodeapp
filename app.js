@@ -20,7 +20,7 @@ const pool = mysql.createPool(dbConfig);
 // Route for the home page
 app.get('/', (req, res) => {
   // Simple "Hello World" response
-  let responseText = '<h1>Hello World from EC2 with RDS! This is second edition :))</h1>';
+  let responseText = '<h1>Hello World from EC2 with RDS! Let\'s test approval :))</h1>';
 
   // Attempt to query the database
   pool.query('SELECT 1 + 1 AS solution', (error, results) => {

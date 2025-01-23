@@ -9,3 +9,15 @@ This repository contains a Node app code, Code Build and Code Deploy configurati
 - `buildspec.yml` - Code Build's build file
 - `package.json` - Node app's dependencies
 - `/scripts` - Shell scripts used in `appspec.yml`
+
+***
+
+## App Run Scripts
+
+```
+npm install
+```
+
+```
+node app.js
+```
